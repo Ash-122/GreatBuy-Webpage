@@ -1,0 +1,120 @@
+/* 
+Theme Name: Twenty Twenty Two Child theme
+Author: Tejas Prajapati
+Template: twentytwentytwo
+Description: This theme is a child theme of twenty twenty two theme.
+Version: 1.1.1
+Tags: One Column, Custom Colours, custom-menu, Custom Logo, Editor Style, Featured Images, Full Site Editing, Block Editor Patterns rtl-language-support, Sticky Post, threaded-comments
+*/
+
+/*
+ * Globals
+ */
+ body {
+    font-family: fantasy, Geneva;
+    color: #024b47;
+  }
+  
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4{
+    margin-top: 0;
+    color: #024b47;
+  }
+  
+  .container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(252, 16, 75, 0.9);
+    display: block;
+    font-family: Trebuchet MS, serif;
+    font-weight: 350;
+    font-size: 14px;
+  
+  }
+  
+  
+  
+  .blog-head {
+    background-color: #3bddfa;
+    -webkit-box-shadow: inset 0 -2px 5px rgba(39, 3, 3, 0.1);
+            box-shadow: inset 0 -2px 5px rgba(39, 3, 3, 0.1);
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 900px;
+    }
+  }
+  
+
+  .blog-nav li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .blog-nav li a {
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+  }
+
+  .blog-description {
+    font-size: 20px;
+    color: #999;
+  }
+  
+  
+
+  .blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+ 
+  
+  
+  .blog-post {
+    margin-bottom: 60px;
+  }
+
+  .blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+  }
+
+  .blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+  }
+  
+  
+  
+  .blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .blog-footer p:last-child {
+    margin-bottom: 0;
+  }
+  
